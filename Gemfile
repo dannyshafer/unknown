@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+gem 'alphavantagerb'
+
+gem 'dotenv-rails'
+
 gem 'webpacker'
 
 gem 'react_on_rails'
