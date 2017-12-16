@@ -1,8 +1,9 @@
 class StocksController < ApplicationController
   def index
-    puts alphavantage.inspect
   end
 
   def show
+    @stock = alphavantage.stock symbol: params[:id]
   end
+
 end
